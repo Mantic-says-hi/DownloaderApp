@@ -1,0 +1,10 @@
+# Ignore all target directories
+target/
+# Ignore cargo registry
+.cargo/registry
+# Ignore executables
+*.exe
+# Ignore debugging symbols
+*.pdb
+# Ignore Cargo.lock
+Cargo.lock
