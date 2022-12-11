@@ -1,4 +1,8 @@
-mod streamable;
+mod websites
+{
+    pub mod streamable;
+    pub mod youtube;
+}
 //mod screens 
 //{
 //    pub mod main_screen;
@@ -6,6 +10,6 @@ mod streamable;
 
 fn main() {
     let url = "https://streamable.com/7ws82";
-    streamable::streamable_downloader(url);
+    websites::streamable::streamable_downloader(url);
     
 }
